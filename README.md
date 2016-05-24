@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 **I apologize to everyone for my slow rate of response and development recently.** This is my final semester and I am very busy. Although I usually work on AdminLTE a few hours a week, there are weeks full of exams and assignments. Thanks for your understanding.
 
 Introduction
@@ -241,3 +242,7 @@ Donations
 Donations are **greatly appreciated!**
 
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif "AdminLTE Presentation")](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=629XCUSXBHCBC "Donate")
+=======
+# ocs
+OSRoad Cloud System
+>>>>>>> 5529a6f7280d30bf9970445d4790e24f893513c2
