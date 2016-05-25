@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>OSRoad Products</title>
+  <title>OSRoad OCS</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -46,7 +46,7 @@
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>OS</b>ROAD</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>OSROAD</b>OAM</span>
+      <span class="logo-lg"><b>OSROAD</b>OCS</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -335,9 +335,25 @@
         </li>
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-files-o"></i>
-            <span>资源管理</span>
-            <span class="label label-primary pull-right">4</span>
+            <i class="fa fa-bank"></i><span>资源管理</span><i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="treeview-menu">
+			  <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i>资源池</a>
+				  <ul class="treeview-menu">
+					  <li><a href="#"><i class="fa fa-circle-o"></i>OpenStack</a></li>
+					  <li><a href="#"><i class="fa fa-circle-o"></i>Vmware</a></li>
+					  <li><a href="#"><i class="fa fa-circle-o"></i>公有云</a></li>
+				  </ul>
+			  </li>
+            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i>集群</a></li>
+            <li><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i>节点</a></li>
+          </ul>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-building-o"></i>
+            <span>资产管理</span>
+			<i class="fa fa-angle-left pull-right"></i>
           </a>
           <ul class="treeview-menu">
             <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i>资源</a></li>
@@ -349,13 +365,13 @@
         <li>
           <a href="pages/widgets.html">
             <i class="fa fa-th"></i> <span>服务管理</span>
-            <small class="label pull-right bg-green">new</small>
+			<i class="fa fa-angle-left pull-right"></i>
           </a>
         </li>
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-pie-chart"></i>
-            <span>Charts</span>
+            <i class="fa fa-laptop"></i>
+            <span>监控管理</span>
             <i class="fa fa-angle-left pull-right"></i>
           </a>
           <ul class="treeview-menu">
@@ -367,8 +383,8 @@
         </li>
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-laptop"></i>
-            <span>UI Elements</span>
+            <i class="fa fa-cogs"></i>
+            <span>自动化管理</span>
             <i class="fa fa-angle-left pull-right"></i>
           </a>
           <ul class="treeview-menu">
@@ -382,8 +398,8 @@
         </li>
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-edit"></i> <span>Forms</span>
-            <i class="fa fa-angle-left pull-right"></i>
+            <i class="fa fa-bell"></i> <span>系统告警</span>
+            <small class="label pull-right bg-yellow">10</small>
           </a>
           <ul class="treeview-menu">
             <li><a href="pages/forms/general.html"><i class="fa fa-circle-o"></i> General Elements</a></li>
@@ -393,7 +409,7 @@
         </li>
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-table"></i> <span>Tables</span>
+            <i class="fa fa-file-text"></i> <span>分析和报表</span>
             <i class="fa fa-angle-left pull-right"></i>
           </a>
           <ul class="treeview-menu">
@@ -403,61 +419,17 @@
         </li>
         <li>
           <a href="pages/calendar.html">
-            <i class="fa fa-calendar"></i> <span>Calendar</span>
-            <small class="label pull-right bg-red">3</small>
+            <i class="fa fa-group"></i> <span>用户和权限</span>
+            <i class="fa fa-angle-left pull-right"></i>
           </a>
         </li>
         <li>
           <a href="pages/mailbox/mailbox.html">
-            <i class="fa fa-envelope"></i> <span>Mailbox</span>
-            <small class="label pull-right bg-yellow">12</small>
-          </a>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-folder"></i> <span>Examples</span>
+            <i class="fa fa-wrench"></i> <span>系统设置</span>
             <i class="fa fa-angle-left pull-right"></i>
           </a>
-          <ul class="treeview-menu">
-            <li><a href="pages/examples/invoice.html"><i class="fa fa-circle-o"></i> Invoice</a></li>
-            <li><a href="pages/examples/profile.html"><i class="fa fa-circle-o"></i> Profile</a></li>
-            <li><a href="pages/examples/login.html"><i class="fa fa-circle-o"></i> Login</a></li>
-            <li><a href="pages/examples/register.html"><i class="fa fa-circle-o"></i> Register</a></li>
-            <li><a href="pages/examples/lockscreen.html"><i class="fa fa-circle-o"></i> Lockscreen</a></li>
-            <li><a href="pages/examples/404.html"><i class="fa fa-circle-o"></i> 404 Error</a></li>
-            <li><a href="pages/examples/500.html"><i class="fa fa-circle-o"></i> 500 Error</a></li>
-            <li><a href="pages/examples/blank.html"><i class="fa fa-circle-o"></i> Blank Page</a></li>
-            <li><a href="pages/examples/pace.html"><i class="fa fa-circle-o"></i> Pace Page</a></li>
-          </ul>
         </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-share"></i> <span>Multilevel</span>
-            <i class="fa fa-angle-left pull-right"></i>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
-            <li>
-              <a href="#"><i class="fa fa-circle-o"></i> Level One <i class="fa fa-angle-left pull-right"></i></a>
-              <ul class="treeview-menu">
-                <li><a href="#"><i class="fa fa-circle-o"></i> Level Two</a></li>
-                <li>
-                  <a href="#"><i class="fa fa-circle-o"></i> Level Two <i class="fa fa-angle-left pull-right"></i></a>
-                  <ul class="treeview-menu">
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
-          </ul>
-        </li>
-        <li><a href="documentation/index.html"><i class="fa fa-book"></i> <span>Documentation</span></a></li>
-        <li class="header">LABELS</li>
-        <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
-        <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
-        <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
+        <li><a href="documentation/index.html"><i class="fa fa-book"></i> <span>使用文档</span></a></li>
       </ul>
     </section>
     <!-- /.sidebar -->
@@ -498,21 +470,6 @@
         <!-- ./col -->
         <div class="col-lg-3 col-xs-6">
           <!-- small box -->
-          <div class="small-box bg-green">
-            <div class="inner">
-              <h3>53<sup style="font-size: 20px">%</sup></h3>
-
-              <p>集群计算使用率（CPU 内存）</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-stats-bars"></i>
-            </div>
-            <a href="#" class="small-box-footer">更多 <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
           <div class="small-box bg-yellow">
             <div class="inner">
               <h3>14</h3>
@@ -521,6 +478,21 @@
             </div>
             <div class="icon">
               <i class="ion ion-person-add"></i>
+            </div>
+            <a href="#" class="small-box-footer">更多 <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-green">
+            <div class="inner">
+              <h3>53<sup style="font-size: 20px">%</sup></h3>
+
+              <p>集群计算使用率（CPU 内存）</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-stats-bars"></i>
             </div>
             <a href="#" class="small-box-footer">更多 <i class="fa fa-arrow-circle-right"></i></a>
           </div>
@@ -548,75 +520,12 @@
         <!-- Left col -->
         <section class="col-lg-7 connectedSortable">
           <!-- Custom tabs (Charts with tabs)-->
-          <div class="nav-tabs-custom">
-            <!-- Tabs within a box -->
-            <ul class="nav nav-tabs pull-right">
-              <li class="active"><a href="#revenue-chart" data-toggle="tab">Area</a></li>
-              <li><a href="#sales-chart" data-toggle="tab">Donut</a></li>
-              <li class="pull-left header"><i class="fa fa-inbox"></i></li>
-            </ul>
-            <div class="tab-content no-padding">
-              <!-- Morris chart - Sales -->
-              <div class="chart tab-pane active" id="revenue-chart" style="position: relative; height: 300px;"></div>
-              <div class="chart tab-pane" id="sales-chart" style="position: relative; height: 300px;"></div>
-            </div>
-          </div>
-          <!-- /.nav-tabs-custom -->
-        </section>
-        <!-- /.Left col -->
-        <!-- right col (We are only adding the ID to make the widgets sortable)-->
-        <section class="col-lg-5 connectedSortable">
-
-          <!-- Map box -->
-          <div class="box box-solid bg-light-blue-gradient">
-            <div class="box-header">
-              <!-- tools box -->
-              <div class="pull-right box-tools">
-                <button type="button" class="btn btn-primary btn-sm daterange pull-right" data-toggle="tooltip" title="Date range">
-                  <i class="fa fa-calendar"></i></button>
-                <button type="button" class="btn btn-primary btn-sm pull-right" data-widget="collapse" data-toggle="tooltip" title="Collapse" style="margin-right: 5px;">
-                  <i class="fa fa-minus"></i></button>
-              </div>
-              <!-- /. tools -->
-
-              <i class="fa fa-map-marker"></i>
-
-              <h3 class="box-title">
-              </h3>
-            </div>
-            <div class="box-body">
-              <div id="world-map" style="height: 250px; width: 100%;"></div>
-            </div>
-            <!-- /.box-body-->
-            <div class="box-footer no-border">
-              <div class="row">
-                <div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
-                  <div id="sparkline-1"></div>
-                  <div class="knob-label">Visitors</div>
-                </div>
-                <!-- ./col -->
-                <div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
-                  <div id="sparkline-2"></div>
-                  <div class="knob-label">在线</div>
-                </div>
-                <!-- ./col -->
-                <div class="col-xs-4 text-center">
-                  <div id="sparkline-3"></div>
-                  <div class="knob-label">Exists</div>
-                </div>
-                <!-- ./col -->
-              </div>
-              <!-- /.row -->
-            </div>
-          </div>
-          <!-- /.box -->
-
           <!-- solid sales graph -->
           <div class="box box-solid bg-teal-gradient">
             <div class="box-header">
               <i class="fa fa-th"></i>
 
-              <h3 class="box-title">Sales Graph</h3>
+              <h3 class="box-title">个人面板</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn bg-teal btn-sm" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -632,21 +541,21 @@
             <div class="box-footer no-border">
               <div class="row">
                 <div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
-                  <input type="text" class="knob" data-readonly="true" value="20" data-width="60" data-height="60" data-fgColor="#39CCCC">
+                  <input type="text" class="knob" data-readonly="true" value="90" data-width="60" data-height="60" data-fgColor="#39CCCC">
 
-                  <div class="knob-label">Mail-Orders</div>
+                  <div class="knob-label">报警处理率</div>
                 </div>
                 <!-- ./col -->
                 <div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
-                  <input type="text" class="knob" data-readonly="true" value="50" data-width="60" data-height="60" data-fgColor="#39CCCC">
+                  <input type="text" class="knob" data-readonly="true" value="80" data-width="60" data-height="60" data-fgColor="#39CCCC">
 
-                  <div class="knob-label">Online</div>
+                  <div class="knob-label">服务订单处理率</div>
                 </div>
                 <!-- ./col -->
                 <div class="col-xs-4 text-center">
                   <input type="text" class="knob" data-readonly="true" value="30" data-width="60" data-height="60" data-fgColor="#39CCCC">
 
-                  <div class="knob-label">In-Store</div>
+                  <div class="knob-label">上班在线时间</div>
                 </div>
                 <!-- ./col -->
               </div>
@@ -655,13 +564,137 @@
             <!-- /.box-footer -->
           </div>
           <!-- /.box -->
+          <!-- TABLE: LATEST ORDERS -->
+          <div class="box box-info">
+            <div class="box-header with-border">
+              <h3 class="box-title">最新服务订单</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <div class="table-responsive">
+                <table class="table no-margin">
+                  <thead>
+                  <tr>
+                    <th>订单ID</th>
+                    <th>服务内容</th>
+                    <th>订单状态</th>
+                    <th>提交人</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td><a href="pages/examples/invoice.html">OR9842</a></td>
+                    <td>开通线上测试环境</td>
+                    <td><span class="label label-warning">待审核</span></td>
+                    <td>
+                      <div class="sparkbar" data-color="#00a65a" data-height="20">开发部@张涛</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><a href="pages/examples/invoice.html">OR1848</a></td>
+                    <td>新业务@开门红上线</td>
+                    <td><span class="label label-warning">待审核</span></td>
+                    <td>
+                      <div class="sparkbar" data-color="#f39c12" data-height="20">运维部@李云</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><a href="pages/examples/invoice.html">OR7429</a></td>
+                    <td>车险业务在线升级</td>
+                    <td><span class="label label-danger">自动化任务失败</span></td>
+                    <td>
+                      <div class="sparkbar" data-color="#f56954" data-height="20">运维部@康缘</div>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!-- /.table-responsive -->
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer clearfix">
+              <a href="javascript:void(0)" class="btn btn-sm btn-info btn-flat pull-left">Place New Order</a>
+              <a href="javascript:void(0)" class="btn btn-sm btn-default btn-flat pull-right">View All Orders</a>
+            </div>
+            <!-- /.box-footer -->
+          </div>
+          <!-- /.box -->
+          <!-- /.nav-tabs-custom -->
+        </section>
+        <!-- /.Left col -->
+        <!-- right col (We are only adding the ID to make the widgets sortable)-->
+        <section class="col-lg-5 connectedSortable">
+
+          <div class="box">
+            <div class="box-header">
+              <h3 class="box-title">资源池</h3>
+
+              <div class="box-tools">
+                <div class="input-group input-group-sm" style="width: 150px;">
+                  <input type="text" name="table_search" class="form-control pull-right" placeholder="搜索">
+
+                  <div class="input-group-btn">
+                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body table-responsive no-padding">
+              <table class="table table-hover">
+                <tr>
+                  <th>名称</th>
+                  <th>类型</th>
+                  <th>CPU(总/剩)</th>
+                  <th>内存(总/剩)</th>
+                  <th>磁盘(总/剩)</th>
+                </tr>
+                <tr>
+                  <td>金山云(北京1)</td>
+                  <td>金山云</td>
+                  <td>100/50</td>
+                  <td>100G/20G</td>
+                  <td>100T/20T</td>
+                </tr>
+                <tr>
+                  <td>OpenStack(北京1)</td>
+                  <td>OpenStack</td>
+                  <td>1000/200</td>
+                  <td>500G/200G</td>
+                  <td>100T/40T</td>
+                </tr>
+                <tr>
+                  <td>Azure(北京1)</td>
+                  <td>Azure</td>
+                  <td>100/50</td>
+                  <td>100G/20G</td>
+                  <td>1000G/100G</td>
+                </tr>
+                <tr>
+                  <td>Vmware(北京1)</td>
+                  <td>Vmware</td>
+                  <td>100/40</td>
+                  <td>1000G/100G</td>
+                  <td>100T/10T</td>
+                </tr>
+              </table>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
 
           <!-- Calendar -->
           <div class="box box-solid bg-green-gradient">
             <div class="box-header">
               <i class="fa fa-calendar"></i>
 
-              <h3 class="box-title">Calendar</h3>
+              <h3 class="box-title">正在执行的自动化任务</h3>
               <!-- tools box -->
               <div class="pull-right box-tools">
                 <!-- button with a dropdown -->
@@ -669,8 +702,8 @@
                   <button type="button" class="btn btn-success btn-sm dropdown-toggle" data-toggle="dropdown">
                     <i class="fa fa-bars"></i></button>
                   <ul class="dropdown-menu pull-right" role="menu">
-                    <li><a href="#">Add new event</a></li>
-                    <li><a href="#">Clear events</a></li>
+                    <li><a href="#">Add new task</a></li>
+                    <li><a href="#">Clear tasks</a></li>
                     <li class="divider"></li>
                     <li><a href="#">View calendar</a></li>
                   </ul>
@@ -693,7 +726,7 @@
                 <div class="col-sm-6">
                   <!-- Progress bars -->
                   <div class="clearfix">
-                    <span class="pull-left">Task #1</span>
+                    <span class="pull-left">#1 创建JBOSS测试集群</span>
                     <small class="pull-right">90%</small>
                   </div>
                   <div class="progress xs">
@@ -701,7 +734,7 @@
                   </div>
 
                   <div class="clearfix">
-                    <span class="pull-left">Task #2</span>
+                    <span class="pull-left">#2 集群caven—135 系统巡检</span>
                     <small class="pull-right">70%</small>
                   </div>
                   <div class="progress xs">
@@ -711,7 +744,7 @@
                 <!-- /.col -->
                 <div class="col-sm-6">
                   <div class="clearfix">
-                    <span class="pull-left">Task #3</span>
+                    <span class="pull-left">#3 重新初始化集群</span>
                     <small class="pull-right">60%</small>
                   </div>
                   <div class="progress xs">
@@ -719,7 +752,7 @@
                   </div>
 
                   <div class="clearfix">
-                    <span class="pull-left">Task #4</span>
+                    <span class="pull-left">#4 存储集群扩容</span>
                     <small class="pull-right">40%</small>
                   </div>
                   <div class="progress xs">
